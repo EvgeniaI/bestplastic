@@ -1,10 +1,11 @@
 import React from 'react';
 import Item from './Item';
+import {Row} from 'react-bootstrap';
 
 const CardItem = (props) => {
   return (
-    <div>
-    {
+    <Row className='d-flex mx-3 my-3 justify-content-evenly align-self-center' md={3}>
+       {
       props.item.map(obj=>{
         return (
       <Item
@@ -20,7 +21,8 @@ const CardItem = (props) => {
     })
     
     }
-    </div>
+   
+    </Row>
 )
 }
 

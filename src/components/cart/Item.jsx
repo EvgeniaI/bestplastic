@@ -1,12 +1,12 @@
 import React from 'react'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import { Col } from 'react-bootstrap';
 
 
 const Item = (props) => {
   return (
-    <div className='container'>
-    <div className='row row-cols-1 justify-content-evenly row-cols-md-3 row-cols-sm-2 mx-3 my-3'>
+    <Col md={3} sm={1} className={"mx-4 my-4 justify-content-evenly"} >
       <Card border="primary" style={{ width: '18rem' }}>
       <Card.Img width={100} variant="top" src={props.img} />
       <Card.Body>
@@ -18,8 +18,7 @@ const Item = (props) => {
         <Button variant="primary">Купить</Button>
       </Card.Body>
     </Card>
-    </div> 
-    </div>
+    </Col>
   )
 }
 

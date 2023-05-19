@@ -5,39 +5,39 @@ const Slider = () => {
   return (
     <Carousel fade>
     <Carousel.Item>
-      <img width={'100%'} height={300}
+      <img  height={600}
         className="d-block w-100"
-        src="./img/banner.jpg"
+        src="./img/logo01.jpg"
         alt="First slide"
       />
       <Carousel.Caption>
-        <h3>BestPlastic</h3>
-        <p>Качественные изделия из прочного пластика</p>
+        <h3 id='title1' className='fs-2 fw-bold'>Лучшие пластиковые изделия</h3>
+        <p id='title1' className='fs-4'>Мы производим пастиковые изделия любого цвета</p>
       </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item>
-      <img width={'100%'} height={300}
+      <img  height={600}
         className="d-block w-100"
-        src="./img/slider2.jpg"
+        src="./img/newcolors.jpg"
         alt="Second slide"
       />
 
       <Carousel.Caption>
-        <h3>Плодосборник</h3>
-        <p>Скоро в продаже</p>
+        <h3 id='title1' className='fs-2 fw-bold'>Новые цвета в палитре</h3>
+        <p id='title1' className='fs-4'>Теперь Выможете заказать изделия из новых необычных цветов</p>
       </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item>
-      <img width={'100%'} height={300}
+      <img  height={600}
         className="d-block w-100"
-        src="./img/banner.jpg"
+        src="./img/boxflower.jpg"
         alt="Third slide"
       />
 
       <Carousel.Caption>
-        <h3>Third slide label</h3>
-        <p>
-          Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+        <h3 id='title1' className='fs-2 fw-bold'>Скоро в продаже</h3>
+        <p id='title1' className='fs-4'>
+         Новые кашпо для цветов скоро будут доступны к заказу
         </p>
       </Carousel.Caption>
     </Carousel.Item>

@@ -10,7 +10,7 @@ const Header = () => {
     <div>
       <Navbar bg="primary" variant="dark">
         <Container>
-          <Navbar.Brand href="#home">BestPlastic</Navbar.Brand>
+          <Navbar.Brand href="#home"><img src="./img/b.png" height={30}/>BestPlastic</Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link href="#home">Главная</Nav.Link>
             <Nav.Link href="#features">Избранное</Nav.Link>

@@ -5,6 +5,7 @@ import CardItem from './components/cart/CardItem';
 import Footer from './components/Footer';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
+import "./App.css"
 
 function App() {
 
@@ -18,6 +19,11 @@ function App() {
     axiosData();
 
 },[])
+
+
+  useEffect(() => {
+    document.title = "BestPlastic";
+  }, []);
 
   return (
     <div>

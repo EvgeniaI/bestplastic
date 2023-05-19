@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+
+.row{
+  --bs-gutter-x: 0rem;
+}
+
+#title1 {
+  text-shadow: #0858f8 2px 2px 4px;
+}
+
+
